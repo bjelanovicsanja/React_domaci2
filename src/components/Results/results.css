@@ -1,0 +1,26 @@
+.Results {
+  background-color: rgb(247, 247, 247);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  border-radius: 0.5rem;
+  width: fit-content;
+  padding: 3% 5%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Results .score {
+  margin-bottom: 2rem;
+}
+
+.Results h2 {
+  margin-bottom: 0.2rem;
+}
+
+.Results .time_result {
+  margin-bottom: 2rem;
+}

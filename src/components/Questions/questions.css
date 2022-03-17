@@ -1,0 +1,72 @@
+.Question {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  padding-top: 30px;
+  padding-bottom: 70px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 38%;
+  height: 20%;
+  background-color: rgb(247, 247, 247);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Question .title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.Question .title_text {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.Question .answers {
+  margin-top: 27px;
+  margin-bottom: 1rem;
+  font-size: 20px;
+}
+
+.Question .field {
+  margin-bottom: 0.4rem;
+  display: flex;
+  align-items: center;
+}
+
+.Question input {
+  margin-right: 0.4rem;
+}
+
+.Question label {
+  margin-top: -0.1rem;
+}
+
+.Question .correct {
+  color: green;
+  font-weight: bold;
+}
+
+.Question .buttons {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+
+  gap: 0.9rem;
+}
+
+.Question .wrong {
+  color: red;
+  font-weight: bold;
+}
+
+.Question button.danger {
+  background-color: red;
+}

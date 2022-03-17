@@ -1,0 +1,1 @@
+export const time_allowed = 60;
